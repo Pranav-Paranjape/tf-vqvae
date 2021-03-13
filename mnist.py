@@ -1,6 +1,6 @@
 from six.moves import xrange
 import os
-import better_exceptions
+#import better_exceptions
 import tensorflow as tf
 import numpy as np
 from tqdm import tqdm
