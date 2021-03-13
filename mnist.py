@@ -23,7 +23,7 @@ def main(config,
          SUMMARY_PERIOD,
          **kwargs):
     np.random.seed(RANDOM_SEED)
-    tf.set_random_seed(RANDOM_SEED)
+    tf.random.set_seed(RANDOM_SEED)
 
     # >>>>>>> DATASET
     from tensorflow.examples.tutorials.mnist import input_data
