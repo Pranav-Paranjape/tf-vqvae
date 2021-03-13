@@ -26,7 +26,7 @@ def main(config,
     tf.random.set_seed(RANDOM_SEED)
 
     # >>>>>>> DATASET
-    import input_data
+    from tensorflow.examples.tutorials.mnist import input_data
     mnist = input_data.read_data_sets("datasets/mnist", one_hot=False)
     # <<<<<<<
 
